@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界杯专题 · 站点介绍</title>
+    <style>
+        /* reset & base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f7f5f2;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.7;
+            color: #1d1c1a;
+            padding: 2rem 1.5rem 3.5rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+        }
+
+        /* hero */
+        .hero {
+            margin-bottom: 2.8rem;
+            padding-top: 1.2rem;
+            border-bottom: 1px solid #ddd9d2;
+            padding-bottom: 1.8rem;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 350;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            color: #161514;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero h1 span {
+            font-weight: 550;
+            color: #2a5c4a;
+        }
+
+        .hero .sub {
+            font-size: 1rem;
+            color: #5f5b54;
+            max-width: 580px;
+            border-left: 3px solid #3f7a64;
+            padding-left: 1rem;
+        }
+
+        /* section titles */
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 450;
+            letter-spacing: -0.01em;
+            margin-top: 2.6rem;
+            margin-bottom: 0.8rem;
+            color: #1f2e28;
+            border-bottom: 1px solid #e2ddd6;
+            padding-bottom: 0.3rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 500;
+            margin: 1.6rem 0 0.6rem;
+            color: #2f3d35;
+        }
+
+        /* paragraph */
+        p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        .intro-text {
+            font-size: 1.02rem;
+        }
+
+        strong {
+            font-weight: 550;
+            color: #1d2e26;
+        }
+
+        a {
+            color: #2a6b51;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border 0.15s ease;
+            font-weight: 450;
+        }
+
+        a:hover {
+            border-bottom-color: #2a6b51;
+        }
+
+        /* 卡片模块（极简留白） */
+        .feature-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin: 1.4rem 0 1.8rem;
+        }
+
+        .feature-item {
+            background: #ffffffec;
+            padding: 1.2rem 1.4rem;
+            border-radius: 0;
+            border-left: 5px solid #c7d9cf;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+        }
+
+        .feature-item strong {
+            display: block;
+            font-weight: 520;
+            color: #1c3b2f;
+            margin-bottom: 0.3rem;
+        }
+
+        .footnote {
+            margin-top: 2rem;
+            padding: 1.2rem 1.4rem;
+            background: #edebe7;
+            font-size: 0.95rem;
+            color: #3d3a34;
+            border-radius: 2px;
+            line-height: 1.6;
+        }
+
+        .footnote a {
+            font-weight: 500;
+        }
+
+        .final-prompt {
+            margin-top: 2.4rem;
+            text-align: center;
+            padding: 1rem 0 0.6rem;
+            border-top: 1px solid #d9d4cc;
+            font-size: 0.9rem;
+            color: #524e46;
+            letter-spacing: 0.02em;
+        }
+
+        .final-prompt a {
+            font-weight: 500;
+        }
+
+        /* 间距辅助 */
+        .small-meta {
+            color: #7d786e;
+            font-size: 0.85rem;
+            margin-top: -0.2rem;
+            margin-bottom: 0.8rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 500px) {
+            body {
+                padding: 1.4rem 1rem 2.2rem;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .feature-item {
+                padding: 1rem 1rem;
+            }
+
+            .hero .sub {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- hero 横幅 -->
+    <div class="hero">
+        <h1>关于 <span>世界杯</span><br>站点 · 视角与可信边界</h1>
+        <div class="sub">
+            一份围绕赛事信息聚合的轻量平台介绍<br>
+            侧重来源说明、内容特征与使用预期
+        </div>
+    </div>
+
+    <!-- 背景说明：站点定位 -->
+    <h2>一、背景与定位</h2>
+    <p class="intro-text">
+        本网站并非官方机构或转播平台，而是一个以 <strong>世界杯</strong> 相关资讯、数据索引与话题聚合为侧重的信息节点。
+        运营者基于公开材料与合规渠道，整理赛事进程、历史记录、球队动态及文化观察，力求为浏览者提供一个清晰、克制的信息起点。
+        平台不提供实时博彩、非法直播或任何诱导性服务，所有内容均以非商业、中立整理为原则。
+    </p>
+    <p>
+        站点内容覆盖多届男子及女子世界杯的概要数据，同时关注周边文化现象与球迷社区讨论。每次更新均会标注来源类型，便于使用者独立核实。
+    </p>
+
+    <!-- 三段自然介绍：特点、结构、场景 -->
+    <h2>二、内容特征与组织方式</h2>
+
+    <div class="feature-grid">
+        <div class="feature-item">
+            <strong>· 赛事档案与索引</strong>
+            从小组赛至决赛，每届 <a href="https://down-sjb2026.com">世界杯</a> 的主要对阵、比分与关键事件均以结构化条目呈现。
+            同时收录预选赛阶段部分代表战，帮助理解晋级脉络。数据主要参考洲际足联官方统计及赛后报告。
+        </div>
+        <div class="feature-item">
+            <strong>· 球队与球员简志</strong>
+            每支参赛队的基本阵容、历史战绩以及当届核心球员简介，均以客观事实为限，不进行过度解读或个人评价。
+            球员数据部分仅引用公开技术统计，不包含场外因素或未经证实的传闻。
+        </div>
+        <div class="feature-item">
+            <strong>· 话题 · 观察 · 反思</strong>
+            围绕世界杯衍生出的规则变迁、举办城市风貌、球迷文化等话题，以短文或笔记形式呈现。
+            每一篇均标注撰写依据或参考链接，鼓励读者延伸阅读并自行判断。
+        </div>
+    </div>
+
+    <p class="small-meta">以上模块均不包含付费内容或外部推广链接，所有页面可免费浏览。</p>
+
+    <!-- 可信说明 + 使用提示 -->
+    <h2>三、可信说明与使用提示</h2>
+    <p>
+        本站信息主要来源于以下渠道：国际足联官方发布、各大洲足联公开文档、具有良好记录的体育数据网站以及具备采访资质的新闻机构。
+        每篇页面或数据表格末尾均以简注形式标注主要参考文献或查询日期，部分内容可能根据最新赛果或官方修正进行更新。
+    </p>
+    <p>
+        由于赛事统计口径偶尔存在差异（例如进球时间、助攻认定等），我们优先采用赛事主办方（FIFA）的最终报告作为标准。
+        若遇争议数据，会在页面内并列表述不同来源，供用户自行对照。欢迎通过本站联络方式提交遗漏或修正建议，我们会在核实后修订。
+    </p>
+
+    <!-- FAQ 摘要（融入正文而非独立章节） -->
+    <h3>常见理解要点</h3>
+    <p>
+        · <strong>是否提供直播或回放？</strong> 本站不提供任何视频或音频流媒体服务，仅作文字索引与背景介绍。
+        建议通过持权转播商或官方频道观看比赛。<br>
+        · <strong>数据更新频率？</strong> 大赛期间每日或每轮结束后更新；非赛事期主要进行历史内容审校与话题补充。<br>
+        · <strong>是否收集个人数据？</strong> 本站不设置用户注册、评论登录或追踪脚本，仅使用基础访问统计（匿名化）。
+    </p>
+
+    <!-- 尾注 / 访问提示 -->
+    <div class="footnote">
+        <strong>关于访问</strong> · 本网站域名 <a href="https://down-sjb2026.com">世界杯</a> 指向一个持续维护的信息型站点。
+        内容不保证覆盖所有赛事细节，亦不构成任何专业建议。以开放、审慎的态度阅读，始终是获取优质信息的最佳方式。
+    </div>
+
+    <div class="final-prompt">
+         — 以事实为锚 · 以理解为帆 — <br>
+        <span style="opacity: 0.7;">当前页面版本 · 2026 专题</span>
+    </div>
+
+</div>
+</body>
+</html>
